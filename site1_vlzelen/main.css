@@ -13,6 +13,15 @@ body {
     background: #edeae4;
     font: 400 14pt 'Vera Humana 95', 'Georgia', 'Liberation Serif', serif;
 }
+
+a {
+    color: #028;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 #main {
     max-width: 640px;
     width: 100%;
@@ -23,6 +32,7 @@ body {
 }
 code {
     display: block;
+    text-align: center;
     background: #ddd;
     color: #000;
     border: 1px dotted #000;
@@ -36,4 +46,8 @@ h1 > sup {
     text-transform: uppercase;
     text-decoration: none;
     color: #028;
+}
+
+iframe {
+    background: green;
 }
